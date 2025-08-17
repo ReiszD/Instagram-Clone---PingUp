@@ -28,7 +28,7 @@ const Feed = () => {
         ))}</div>
       </div>
       {/* Right Sidebar */}
-      <div className="max-x1:hidden sticky top-0">
+      <div className="max-xl:hidden sticky top-0">
         <div className="max-w-xs bg-white text-xs p-4 rounded-md inline-flex flex-col gap-2 shadow">
           <h3 className="text-slate-800 font-semibold">Sponsored</h3>
           <img src={assets.sponsored_img} className="w-75 h-50 rounded-md" alt="" />
